@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/swift-client/static/css/main.57cbc77e.css",
-    "main.js": "/swift-client/static/js/main.9b611503.js",
+    "main.js": "/swift-client/static/js/main.2b2cd856.js",
     "static/js/787.2288d39b.chunk.js": "/swift-client/static/js/787.2288d39b.chunk.js",
     "index.html": "/swift-client/index.html",
     "main.57cbc77e.css.map": "/swift-client/static/css/main.57cbc77e.css.map",
-    "main.9b611503.js.map": "/swift-client/static/js/main.9b611503.js.map",
+    "main.2b2cd856.js.map": "/swift-client/static/js/main.2b2cd856.js.map",
     "787.2288d39b.chunk.js.map": "/swift-client/static/js/787.2288d39b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57cbc77e.css",
-    "static/js/main.9b611503.js"
+    "static/js/main.2b2cd856.js"
   ]
 }
