@@ -1,14 +1,17 @@
 {
+  "proxy": "https://swiftinventory2023-f984d0fc6c43.herokuapp.com",
   "name": "swift",
-  "homepage":"http://BettLawi.github.io/swift-client",
+  "homepage": "http://BettLawi.github.io/swift-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -40,6 +43,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "@babel/plugin-proposal-private-property-in-object": "^x.x.x"
   }
 }
