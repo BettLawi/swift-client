@@ -5,7 +5,7 @@ function Transaction() {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
-    fetch('/transactions')
+    fetch('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/transactions')
       .then((response) => response.json())
       .then((data) => {
         setTransactions(data);

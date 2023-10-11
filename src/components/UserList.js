@@ -19,7 +19,7 @@ const Login = () => {
     e.preventDefault();
     try {
       // Make a POST request to log in and get a JWT token
-      const response = await axios.post('/login', loginData, {
+      const response = await axios.post('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/login', loginData, {
         headers: {                        
           'Content-Type': 'application/json',
         },

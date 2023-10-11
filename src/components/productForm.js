@@ -31,7 +31,7 @@ function ProductForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch('/products', {
+      const response = await fetch('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/products', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ function ProductForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch(`/products/${deleteId}`, {
+      const response = await fetch(`https://swiftinventory2023-f984d0fc6c43.herokuapp.com/products/${deleteId}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

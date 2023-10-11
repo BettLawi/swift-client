@@ -122,7 +122,7 @@ function ProductList() {
   useEffect(() => {
     // Fetch data from your Flask API
     axios
-      .get('/products')
+      .get('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/products')
       .then((response) => {
         setProducts(response.data);
       })

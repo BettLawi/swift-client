@@ -15,7 +15,7 @@ const SalesForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('/transactions', {
+      const response = await fetch('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/transactions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

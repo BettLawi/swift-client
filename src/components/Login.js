@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = () => {
     axios
-      .post('/login', {
+      .post('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/login', {
         name,
         email,
         password,
